@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+} 
+
+.padding{
+  padding-top: 10px;
+}
+.footer_container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+li a{
+  text-decoration: none;
+ color: #434343;
+}
+ul li{
+ list-style: none;
+}
+.fashionholic{
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 24px;
+
+
+letter-spacing: 0%;
+text-align: center;
+
+}
+.same_titles{
+  font-family: Mulish;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+line-height: 2;
+
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+.little_same-titles{
+  font-family: Mulish;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+
+
+text-transform: capitalize;
+
+
+}
+.footer_frst{
+  display: flex;
+  align-items: center;
+
+}
+.footer_wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  
+}
