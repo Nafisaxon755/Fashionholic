@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+body{
+    background-color: #FBFAFF;
 }
 
 .header__container {
@@ -66,3 +70,182 @@ border-bottom-right-radius: 25px;
   border: 1px solid #fff;
 
 }
+.select_buttons{
+   appearance: none;
+      border: 0;
+   
+   background-color: transparent;
+   font-family: Inter sans-serif;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 22px;
+color: #FFFFFF;
+line-height: 100%;
+letter-spacing: 0%;
+
+ padding: 0 10px;
+
+  
+}
+.navabar{
+ 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  background-color: #808080;
+  height: 45px;
+}
+.body_container{
+   max-width: 1300px;
+  padding: 0 16px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sort_text{
+  font-family: Inter sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+align-items: center;
+line-height: 100%;
+letter-spacing: 0%;
+
+  display: flex;
+  justify-content: end;
+gap: 10px;
+}
+.sort_select{
+  width: 171.33999633789062px;
+height: 45.98870849609375px;
+top: 163px;
+left: 1201.28px;
+text-align: center;
+opacity: 1;
+border-radius: 15px;
+ font-family: Inter sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+color: #394174;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.purchase_section{
+  margin-top: 25px;
+}
+.checkbox_section{
+
+  width: 325px;
+  height: 1030px;
+  background-color: #FFFFFF;
+ 
+  padding: 45px
+
+
+}
+
+.categorytext {
+  font-family: Inter sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: 20px; 
+  color: #000;
+}
+.cost_choose{
+  width: 50px;
+height: 50px;
+top: 700px;
+left: 100px;
+
+opacity: 1;
+border-width: 1px;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+
+}
+.cost_choose-input{
+  width: 160px;
+height: 50px;
+top: 700px;
+left: 100px;
+
+opacity: 1;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+border-width: 1px;
+font-family: Inter sans-serif;
+font-weight: 300;
+font-style: Light;
+font-size: 20px;
+
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.price{
+  font-family: Inter sans-serif;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 20px;
+
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.cost{
+  display: flex;
+  align-items: center;
+}
+label{
+  font-family: Inter sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.color_button{
+  
+  flex: 0 0 45px; 
+  width: 45px;
+  height: 45px;
+
+border: 0;
+  box-shadow: 3px 3px #00000040;
+opacity: 1;
+border-radius: 5px;
+
+
+}
+#purple{
+  
+  background-color: #C100E0;
+}
+#blue{
+  background-color: #0022D6;
+}
+#red{
+  background-color: #FF0000;
+}#yellow{
+  background-color: #D3CB00;
+}#sky{
+  background-color: #00C6E1;
+}
+#green{
+  background-color: #00B612;
+}
+#black{
+  background-color: #000000;
+}
+#white{
+  background-color: #FFFFFF;
+  }
+  .color{
+    margin-top:180px ;
+  }
